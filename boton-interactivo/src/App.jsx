@@ -1,6 +1,8 @@
 import { useState } from "react";
+import "./App.css"
 import ListaUsuarios from "./components/listaUsuarios";
 import BotonPrueba from "./components/botonPrueba";
+import Tarjeta from "./components/tarjeta";
 
 function Saludo({ nombre }) {
     return <h1>¡Hola, {nombre}!</h1>;
@@ -26,10 +28,14 @@ function App() {
             texto={'Clickea el boton'}
             color={'green'}
         />
-        </>
-
         
-    );
+        <Tarjeta 
+            titulo={"Oferta especial"}
+            descripcion={"20% de descuento en todos los productos"}
+            botonTexto={"Ver más"}
+         />
+        
+   </> );
 }
 
 export default App;
