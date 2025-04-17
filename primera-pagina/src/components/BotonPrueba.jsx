@@ -1,7 +1,11 @@
 import "../styles/BotonPrueba.css"
 
-function BotonPrueba({ texto }) {
-    return (<button className="botonPrimario">{texto}</button>);
+function BotonPrueba({texto ,titulo}) {
+
+   function mensaje(){
+    alert(`Explorando:  ${titulo}`)
+   }
+    return (<button className="botonPrimario" onClick={mensaje} >{texto}</button>); 
   }
 
   export default BotonPrueba;

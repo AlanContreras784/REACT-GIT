@@ -7,7 +7,7 @@ function Gallery() {
 
 
     return (  
-        <section style={{ display: "flex", gap: "10px", justifyContent: "center", marginTop: "20px" }}>  
+        <section style={{ display: "flex", gap: "10px", justifyContent: "center", marginTop: "20px", paddingBottom: "30px" }}>  
             {images.map((src, index) => (  
                 <img key={index} src={src} alt={`Imagen ${index + 1}`} style={{ width: "150px", height: "150px" }} />  
             ))}  

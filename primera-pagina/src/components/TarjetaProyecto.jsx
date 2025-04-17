@@ -3,13 +3,13 @@ import "../styles/TarjetaProyecto.css"
 
 function TarjetaProyecto({titulo, descripcion, botonTexto}){
     return(
-        <div>
+        <div className="contenedorTarjetaGestion">
             <div className="proyect-conteiner">
             <h1>{titulo}</h1>
             <p>{descripcion}</p>
             <Boton
                 texto={botonTexto}
-                color={"black"}
+                titulo={titulo}
             />
         </div>
         </div>
