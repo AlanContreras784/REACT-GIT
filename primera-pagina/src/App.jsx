@@ -13,8 +13,12 @@ import BotonPrueba from './components/BotonPrueba'
 import GaleriaIntereses from './components/GaleriaIntereses'
 import Contador from './components/Contador'
 import Formulario from './components/formulario'
+import CambiarColorBoton from './components/CambiaColorBoton'
+
 
 function App() {
+  
+
   const equipo = [
     { id:0, nombre: 'Silvia', rol: 'Product Owner', imagen: ' https://randomuser.me/api/portraits/women/75.jpg ' },
     { id:1, nombre: 'Luis', rol: 'Diseñador UX/UI', imagen: 'https://randomuser.me/api/portraits/men/75.jpg '},
@@ -43,6 +47,7 @@ function App() {
       />
       <Contador/>
       <Formulario/>
+      <CambiarColorBoton/>
 
       <Footer/>
     </>

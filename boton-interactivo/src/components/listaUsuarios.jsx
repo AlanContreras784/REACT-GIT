@@ -3,7 +3,7 @@ function ListaUsuarios() {
     return (  
         <ol>  
             {usuarios.map(usuario => (  
-                <li key={usuario}>{usuario}</li>  
+                <li key={usuario.indexOf}>{usuario}</li>  
             ))}  
         </ol>  
     );  
