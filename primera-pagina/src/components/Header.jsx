@@ -1,4 +1,3 @@
- 
 function Header() {  
     return ( 
 
@@ -8,6 +7,5 @@ function Header() {
         </header> 
         </>  
     ); 
-  
 }  
 export default Header;

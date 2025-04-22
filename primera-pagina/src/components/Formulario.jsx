@@ -5,6 +5,7 @@ const [nombre, setNombre] = useState('');
 function manejarEnvio(evento) {
     evento.preventDefault();
     alert(`Formulario enviado por: ${nombre}`);
+    setNombre("")
 }
 return (
     <form onSubmit={manejarEnvio}>
