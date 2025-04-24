@@ -47,7 +47,8 @@ function App() {
       />
       <Contador/>
       <Formulario/>
-      <CambiarColorBoton/>
+      <CambiarColorBoton
+      texto={"CambiaDeColor"}/>
 
       <Footer/>
     </>

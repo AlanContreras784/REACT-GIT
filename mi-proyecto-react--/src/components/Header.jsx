@@ -1,4 +1,4 @@
-import Logo from "../assets/img/logo_cero_huella.png"
+import Logo from "../assets/img/Logo Cero Huella Horiz.png"
 import Nav from "../components/Nav"
 import "../styles/Header.css"
 import "../styles/bootstrap.min.css"

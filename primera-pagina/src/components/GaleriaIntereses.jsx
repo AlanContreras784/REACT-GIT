@@ -1,14 +1,16 @@
 import React, {useState} from "react";
 import "../styles/GaleriaIntereses.css"
+import BotonColor from "../components/CambiaColorBoton"
 
-function  GaleriaIntereses({intereses,color}){
+function  GaleriaIntereses({intereses}){
     return(
         <div className="contenedorBotonGaleriaIntereses">
             {intereses.map(interes=>(
-                <button 
+                <BotonColor
                     key={interes}
-                    >{interes}
-                </button>
+                    texto={interes}
+                    />
+                
             ))} 
         </div>
     )
