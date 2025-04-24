@@ -5,9 +5,11 @@ export default function ContenedorCards({productos}){
 
     return(
         <div>
-            {productos.map((producto)=>{
-                <Cards producto={producto}/>
-            })}
+            {productos.map(producto=>(
+                <Cards productos={producto}/>
+
+            )
+            )}
             
         </div>
     )

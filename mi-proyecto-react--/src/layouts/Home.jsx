@@ -2,6 +2,7 @@ import ContenedorCards from "../components/ContenedorCards";
 import Main from "../components/Main";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Cards from "../components/Cards";
 
 export default function Home(){
     const productos = [
@@ -40,10 +41,11 @@ export default function Home(){
         <div>
             <Header/>
             <Main/>
-            <ContenedorCards
+            <Cards
                 productos={productos}
             />
 
+        
             <Footer/>
 
         </div>
