@@ -1,23 +1,21 @@
 import React, {useState} from "react";
 
 
-function CambiarColorBoton({texto}){
+function CambiarColorBoton({texto, funcionBoton}){
 
     const [color, setColor]=useState({backgroundColor: 'orange'})
     
-    function seleccionColor(){
-        if(color.backgroundColor==='orange'){
-            setColor({backgroundColor: 'white'}); 
-        }else{
-            setColor({backgroundColor: 'orange'});
-        }
-        
-    }
+   /* function seleccionColor(){
+        (color.backgroundColor==="orange")  ? setColor({backgroundColor: 'white'}) 
+        : setColor({backgroundColor: 'orange'})
+    }  */
 
     return(
         <button
         style={color}
-        onClick={seleccionColor}
+        onClick={funcionBoton}
+        onMouseOver={()=>setColor({backgroundColor: 'white'})}
+        onMouseOut={()=>setColor({backgroundColor: 'orange'})}
         >{texto}
         </button>
     )
