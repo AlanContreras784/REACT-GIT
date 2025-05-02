@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 30px;
-    gap: 20px;
 }
 
 .producto-card{
@@ -24,6 +23,7 @@
 
 .producto-imagen{
     width: 100px;
+    height: 100px;
     padding: 5px;
     border-radius: 50%;
     background-color: aliceblue;
