@@ -51,12 +51,6 @@ export default function Home(){
                 <ProductosContainer/>
                 <Footer/>
             </div>
-            <div>
-                <Header/>
-                <Footer/>
-            </div>
-            
-
         </div>
         
     )

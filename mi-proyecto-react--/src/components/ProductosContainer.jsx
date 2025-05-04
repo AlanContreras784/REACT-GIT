@@ -20,6 +20,7 @@ export default function ProductosContainer(){
 
 
     {useEffect(() => {
+        //Hacer pedido a la Api
         fetch('https://68100ddf27f2fdac24102328.mockapi.io/productos')
             .then((respuesta) =>
                 respuesta.json()

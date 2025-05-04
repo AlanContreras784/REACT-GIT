@@ -1,5 +1,3 @@
-import Logo from "../assets/img/Logo Cero Huella Horiz.png"
-import "../styles/Header.css"
 /*
 function Header() {  
     return ( 
@@ -12,6 +10,8 @@ function Header() {
     ); 
 }  
 export default Header;*/
+import Logo from "../assets/img/Logo Cero Huella Horiz.png"
+import "../styles/Header.css"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
